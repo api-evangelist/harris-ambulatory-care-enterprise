@@ -18,12 +18,12 @@ apis:
 name: ' Harris Ambulatory Care Enterprise'
 tags:
   - Healthcare
-type: Index
+type: Contract
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
 created: '2025-02-24'
 modified: '2025-02-24'
-position: Consumer
+position: Consuming
 description: >-
   Harris Ambulatory Care Enterprise is a leading healthcare organization that
   specializes in providing high-quality outpatient medical services to patients
