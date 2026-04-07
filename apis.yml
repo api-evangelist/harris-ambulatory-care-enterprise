@@ -10,10 +10,10 @@ url: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Healthcare
-  - FHIR
   - Electronic Health Records
+  - FHIR
   - Health IT
+  - Healthcare
 created: '2025-02-24'
 modified: '2026-03-16'
 specificationVersion: '0.19'
@@ -27,8 +27,8 @@ apis:
       providers using the Pulse software.
     humanURL: https://harrisambulatory.com
     tags:
-      - Healthcare
       - FHIR
+      - Healthcare
     properties:
       - type: Documentation
         url: https://harrisambulatory.com
