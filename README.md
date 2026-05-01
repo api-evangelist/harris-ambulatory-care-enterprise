@@ -1,42 +1,62 @@
-#  Harris Ambulatory Care Enterprise (harris-ambulatory-care-enterprise)
-Harris Ambulatory Care Enterprise is a leading healthcare organization that specializes in providing high-quality outpatient medical services to patients in need. With a team of skilled physicians, nurses, and administrative staff, they offer a comprehensive range of services including primary care, specialty consultations, diagnostic testing, and rehabilitation therapy. Their state-of-the-art facilities are equipped with the latest medical technology and are designed to create a comfortable and welcoming environment for patients. Harris Ambulatory Care Enterprise is committed to delivering personalized care that is tailored to meet the unique needs of each individual patient, ensuring that they receive the best possible treatment and support.
+# Harris Ambulatory Care Enterprise
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/harris-ambulatory-care-enterprise/refs/heads/main/apis.yml)
+Harris Ambulatory Care Enterprise (part of Harris Healthcare, a Harris Computer company) provides ambulatory healthcare software solutions including the Pulse electronic health record system, Amazing Charts, CareTracker, and Picasso. The portfolio supports §170.315(g)(10) ONC Certified FHIR APIs for third-party application developers to access patient data, provider information, and clinical resources.
+
+**APIs.json:** [apis.yml](https://raw.githubusercontent.com/api-evangelist/harris-ambulatory-care-enterprise/refs/heads/main/apis.yml)
 
 ## Scope
 
-- **Type:** Contract 
-- **Position:** Consuming 
-- **Access:** 3rd-Party 
+- **Type:** Contract
+- **Position:** Producing
+- **Access:** 3rd-Party
 
-## Tags:
+## Tags
 
- - Healthcare
-
-## Timestamps
-
-- **Created:** 2025-02-24 
-- **Modified:** 2025-02-24 
+- Ambulatory Care
+- Electronic Health Records
+- FHIR
+- Health IT
+- Healthcare
+- ONC Certified
+- Pulse
 
 ## APIs
 
-###  Harris Ambulatory Care Enterprise
-This documentation is intended for use by third-party application developers which will describe registration, syntax, functionality and errors/exceptions they will see when using the FHIR API to integrate with provider(s) using the Pulse software. 
+### Pulse FHIR API
 
-**Human URL:** [ https://harrisambulatory.com]( https://harrisambulatory.com)
+The Pulse §170.315(g)(10) ONC Certified FHIR API enables third-party application developers to register, authenticate, and integrate with providers using Harris Pulse EHR software. Because Pulse is deployed per provider, each customer hosts a separate API instance with its own base URL. Third-party developers must obtain an ONC 2015 Edition Certified API License and register with each provider organization.
 
+- **Human URL:** https://harrisambulatory.com/pulse-api-documentation/
+- **Documentation PDF:** [Pulse 8.0 FHIR API Documentation](https://harrisambulatory.com/wp-content/uploads/2023/01/Pulse-8.0-API-FHIR-Documentation.pdf)
 
-#### Tags:
+### Amazing Charts API
 
- - API
+Amazing Charts is an EHR product within Harris Ambulatory Care Enterprise that exposes a §170.315(g)(10) ONC Certified FHIR API.
 
-#### Properties
+- **Human URL:** https://harrisambulatory.com/ac-api-documentation/
 
-- [Documentation]( https://harrisambulatory.com)
+### CareTracker API
+
+CareTracker is a Harris Ambulatory Care Enterprise EHR product that provides a §170.315(g)(10) ONC Certified FHIR API.
+
+- **Human URL:** https://harrisambulatory.com/caretracker-api-documentation/
+
+### Picasso API
+
+Picasso is an ambulatory practice management product within Harris Ambulatory Care Enterprise that provides API documentation for third-party integrators.
+
+- **Human URL:** https://harrisambulatory.com/picasso-api-documentation/
+
+## Properties
+
+- [Website](https://harrisambulatory.com)
+- [Pulse Documentation](https://harrisambulatory.com/pulse-api-documentation/)
+- [Amazing Charts Documentation](https://harrisambulatory.com/ac-api-documentation/)
+- [CareTracker Documentation](https://harrisambulatory.com/caretracker-api-documentation/)
+- [Picasso Documentation](https://harrisambulatory.com/picasso-api-documentation/)
+- [Parent - Harris Computer](https://www.harriscomputer.com)
 
 ## Maintainers
 
-**FN:** Kin Lane
-
-**Email:** info@apievangelist.com
-
+- **FN:** Kin Lane
+- **Email:** kin@apievangelist.com
