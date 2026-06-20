@@ -10,7 +10,7 @@ description: >-
   URL. Third-party developers must obtain an ONC 2015 Edition Certified API
   License and register with each provider organization.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Ambulatory Care
   - Electronic Health Records
