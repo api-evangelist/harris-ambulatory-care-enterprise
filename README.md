@@ -64,63 +64,104 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Harris Ambulatory Care Enterprise (part of Harris Healthcare, a Harris Computer company) provides ambulatory healthcare software solutions including the Pulse electronic health record system, Amazing Charts, CareTracker, and Picasso. The portfolio supports §170.315(g)(10) ONC Certified FHIR APIs for third-party application developers to access patient data, provider information, and clinical resources.
+Harris Ambulatory Care Enterprise (part of Harris Healthcare, a Harris Computer company) provides ambulatory healthcare software solutions including the Pulse electronic health record system. The platform supports a §170.315(g)(10) ONC certified FHIR API for third-party application developers to access patient data, provider information, and clinical resources. Pulse is deployed on-premises, so each provider hosts a separate API instance with its own base URL. Third-party developers must obtain an ONC 2015 Edition Certified API License and register with each provider organization.
 
-**APIs.json:** [apis.yml](https://raw.githubusercontent.com/api-evangelist/harris-ambulatory-care-enterprise/refs/heads/main/apis.yml)
+**Areas:** Ambulatory Care · Electronic Health Records · FHIR · Health IT · Healthcare · ONC Certified · Pulse
 
-## Scope
+## Harris Ambulatory Care Enterprise on APIs.io
 
-- **Type:** Contract
-- **Position:** Producing
-- **Access:** 3rd-Party
+Everything profiled for Harris Ambulatory Care Enterprise is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/harris-ambulatory-care-enterprise/](https://apis.io/providers/harris-ambulatory-care-enterprise/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (4)
 
-- Ambulatory Care
-- Electronic Health Records
-- FHIR
-- Health IT
-- Healthcare
-- ONC Certified
-- Pulse
+- [Pulse FHIR API](https://apis.io/apis/harris-ambulatory-care-enterprise/pulse-fhir-api/) — The Pulse §170.315(g)(10) ONC Certified FHIR API enables third-party application developers to register, authenticate, and integrate with providers using…
+- [Amazing Charts API](https://apis.io/apis/harris-ambulatory-care-enterprise/amazing-charts-api/) — Amazing Charts is an EHR product within Harris Ambulatory Care Enterprise that exposes a §170.315(g)(10) ONC Certified FHIR API for third-party application…
+- [CareTracker API](https://apis.io/apis/harris-ambulatory-care-enterprise/caretracker-api/) — CareTracker is a Harris Ambulatory Care Enterprise EHR product that provides a §170.315(g)(10) ONC Certified FHIR API for third-party developers.
+- [Picasso API](https://apis.io/apis/harris-ambulatory-care-enterprise/picasso-api/) — Picasso is an ambulatory practice management product within Harris Ambulatory Care Enterprise that provides API documentation for third-party integrators.
 
-## APIs
+### Published properties
 
-### Pulse FHIR API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-The Pulse §170.315(g)(10) ONC Certified FHIR API enables third-party application developers to register, authenticate, and integrate with providers using Harris Pulse EHR software. Because Pulse is deployed per provider, each customer hosts a separate API instance with its own base URL. Third-party developers must obtain an ONC 2015 Edition Certified API License and register with each provider organization.
+#### Security (1)
 
-- **Human URL:** https://harrisambulatory.com/pulse-api-documentation/
-- **Documentation PDF:** [Pulse 8.0 FHIR API Documentation](https://harrisambulatory.com/wp-content/uploads/2023/01/Pulse-8.0-API-FHIR-Documentation.pdf)
+Authentication, trust centre, and vulnerability disclosure.
 
-### Amazing Charts API
+- [Harris Ambulatory Care Enterprise Domain Security](https://apis.io/security/harris-ambulatory-care-enterprise/harris-ambulatory-care-enterprise-domain-security/)
 
-Amazing Charts is an EHR product within Harris Ambulatory Care Enterprise that exposes a §170.315(g)(10) ONC Certified FHIR API.
+#### Plans and pricing (1)
 
-- **Human URL:** https://harrisambulatory.com/ac-api-documentation/
+Published plans, tiers and prices.
 
-### CareTracker API
+- [Harris Ambulatory Care Enterprise Plans Pricing](https://apis.io/plans/harris-ambulatory-care-enterprise/harris-ambulatory-care-enterprise-plans-pricing/)
 
-CareTracker is a Harris Ambulatory Care Enterprise EHR product that provides a §170.315(g)(10) ONC Certified FHIR API.
+#### Rate limits (1)
 
-- **Human URL:** https://harrisambulatory.com/caretracker-api-documentation/
+Published request limits.
 
-### Picasso API
+- [Harris Ambulatory Care Enterprise Rate Limits](https://apis.io/rate-limits/harris-ambulatory-care-enterprise/harris-ambulatory-care-enterprise-rate-limits/)
 
-Picasso is an ambulatory practice management product within Harris Ambulatory Care Enterprise that provides API documentation for third-party integrators.
+#### FinOps (1)
 
-- **Human URL:** https://harrisambulatory.com/picasso-api-documentation/
+What the API costs to run, by operation.
 
-## Properties
+- [Harris Ambulatory Care Enterprise Finops](https://apis.io/finops/harris-ambulatory-care-enterprise/harris-ambulatory-care-enterprise-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://harrisambulatory.com)
-- [Pulse Documentation](https://harrisambulatory.com/pulse-api-documentation/)
-- [Amazing Charts Documentation](https://harrisambulatory.com/ac-api-documentation/)
-- [CareTracker Documentation](https://harrisambulatory.com/caretracker-api-documentation/)
-- [Picasso Documentation](https://harrisambulatory.com/picasso-api-documentation/)
-- [Parent - Harris Computer](https://www.harriscomputer.com)
 
-## Maintainers
+## API Evangelist rating
 
-- **FN:** Kin Lane
-- **Email:** kin@apievangelist.com
+**Kin Score 10.5** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 71.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 4.7** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/harris-ambulatory-care-enterprise/](https://apis.io/providers/harris-ambulatory-care-enterprise/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Harris Ambulatory Care Enterprise: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/harris-ambulatory-care-enterprise/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
